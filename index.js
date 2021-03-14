@@ -154,7 +154,7 @@ client.on('ready', () => {
         }
       });
 
-      cclient.on('message', message => {
+        client.on('message', message => {
         // If the message is "what is my avatar"
         if (message.content === 'montre ma grosse tete') {
           // Send the user's avatar URL
