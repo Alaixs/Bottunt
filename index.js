@@ -57,6 +57,7 @@ client.on('ready', () => {
           message.channel.send('feur');
         }
       }); 
+
       
       client.on('message', message => {
         if (message.content === 'feur') {  
@@ -68,7 +69,7 @@ client.on('ready', () => {
         if (message.content === '!telecharge vincent') {  
           message.channel.send('impossible, fichier trop lourd');
         }
-      }); 
+      });
 
       client.on('message', message => {
         if (message.content === '02 existe ?') {  
@@ -79,6 +80,12 @@ client.on('ready', () => {
       client.on('message', message => {
         if (message.content === '002 existe') {  
           message.channel.send('pas');
+        }
+      }); 
+
+client.on('message', message => {
+        if (message.content === 'mais') {  
+          message.channel.send('duse');
         }
       }); 
 
