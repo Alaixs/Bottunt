@@ -10,6 +10,12 @@ help, pour voir la liste des commandes.
 debug, pour voir le nombre de connexions vocales.
 ```
 
+### 🔞  Commandes NSFW
+```
+NSFW : 4k, anal, ass, hentai, hkitsune, hneko, holo, kemonomimi, neko, pussy
+Autres : help, stats
+```
+
 ### 🎵  Commandes musicales
 ```
 play <name/URL>, joue de la musique dans un salon vocal.
